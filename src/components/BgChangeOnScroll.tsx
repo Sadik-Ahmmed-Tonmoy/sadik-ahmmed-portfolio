@@ -10,7 +10,7 @@ export const BgChangeOnScroll = ({
   contentClassName,
 }: {
   content: ReactNode[];
-  BgColors?: string[];
+  BgColors: string[];
   contentClassName?: string;
 }) => {
   const [activeCard, setActiveCard] = React.useState(0);
