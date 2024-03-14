@@ -12,6 +12,7 @@ import { TracingBeamParent } from "./TracingBeamParent";
 import { WavyBackgroundParent } from "./WavyBackgroundParent";
 import { CardHoverEffectParent } from "./CardHoverEffectParent";
 import { GlobeParent } from "./GlobeParent";
+import { LampParent } from "./LampParent";
 
 const content = [
   <TextRevealCardPreview key={1}/>, 
@@ -24,6 +25,7 @@ const content = [
   <WavyBackgroundParent key={8}/>, 
   <CardHoverEffectParent key={9}/>, 
   <GlobeParent key={10}/>, 
+  <LampParent key={11}/>, 
 ];
 
 export function StickyScrollRevealParent() {
