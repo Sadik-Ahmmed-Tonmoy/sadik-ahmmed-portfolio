@@ -8,6 +8,10 @@ import { BackgroundBeamsParent } from "./BackgroundBeamsParent";
 import { MacbookScrollParent } from "./MacbookScrollParent";
 import { SparklesPreviewParent } from "./SparklesPreviewParent";
 import { SVGMaskEffectParent } from "./SVGMaskEffectParent";
+import { TracingBeamParent } from "./TracingBeamParent";
+import { WavyBackgroundParent } from "./WavyBackgroundParent";
+import { CardHoverEffectParent } from "./CardHoverEffectParent";
+import { GlobeParent } from "./GlobeParent";
 
 const content = [
   <TextRevealCardPreview key={1}/>, 
@@ -16,6 +20,10 @@ const content = [
   <MacbookScrollParent key={4}/>, 
   <SparklesPreviewParent key={5}/>, 
   <SVGMaskEffectParent key={6}/>, 
+  <TracingBeamParent key={7}/>, 
+  <WavyBackgroundParent key={8}/>, 
+  <CardHoverEffectParent key={9}/>, 
+  <GlobeParent key={10}/>, 
 ];
 
 export function StickyScrollRevealParent() {
