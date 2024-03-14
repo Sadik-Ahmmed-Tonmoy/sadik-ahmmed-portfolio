@@ -33,6 +33,7 @@ export default function Home() {
     <LampParent key={11}/>, 
   ];
   const BgColors = [
+   
     "var(--slate-900)",
     "var(--black)",
     "var(--neutral-950)",

@@ -77,7 +77,7 @@ export const BgChangeOnScroll = ({
           background: linearGradients[activeCard % linearGradients.length],
         }}
         className={cn(
-          "hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden",
+          "hidden lg:block h-60 w-80 rounded-md bg-white fixed top-10 overflow-hidden",
           contentClassName
         )}
       >
