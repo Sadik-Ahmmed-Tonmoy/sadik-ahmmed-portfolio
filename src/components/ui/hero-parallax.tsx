@@ -27,7 +27,7 @@ export const HeroParallax = ({
     target: ref,
     offset: ["start start", "end start"],
   });
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(200);
   const isLargeScreen = windowWidth > 1500;
   const [minTranslateY, setMinTranslateY] = useState(windowWidth > 1500 ? -700 : windowWidth > 1200 ? -700 : windowWidth > 800 ? -700 : -500);
   const [maxTranslateY, setMaxTranslateY] = useState(windowWidth > 1500 ? 100 : windowWidth > 1200 ? 10 : 10);
