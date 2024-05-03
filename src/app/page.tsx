@@ -1,9 +1,10 @@
+import { AuroraBackgroundMain } from '@/components/AuroraBackgroundMain';
 import { HeroParallaxParent } from '@/components/HeroParallaxParent';
-import React from 'react';
 
 const HomePage = () => {
   return (
     <div>
+      <AuroraBackgroundMain/>
       <HeroParallaxParent/>
     </div>
   );

@@ -32,30 +32,6 @@ export const HeroParallax = ({
   const [minTranslateY, setMinTranslateY] = useState(windowWidth > 1500 ? -700 : windowWidth > 1200 ? -700 : windowWidth > 800 ? -700 : -500);
   const [maxTranslateY, setMaxTranslateY] = useState(windowWidth > 1500 ? 100 : windowWidth > 1200 ? 10 : 10);
 
-    // useEffect(() => {
-    //     const handleWindowResize = () => {
-    //         setWindowWidth(window.innerWidth);
-    //     };
-
-    //     window.addEventListener("resize", handleWindowResize);
-
-    //     return () => {
-    //         window.removeEventListener("resize", handleWindowResize);
-    //     };
-    // }, []);
-
-    
-    // useEffect(() => {
-    //     const updateTranslationValues = () => {
-    //         const newMinTranslateY = isLargeScreen ? -700 : -700;
-    //         const newMaxTranslateY = isLargeScreen ? 300 : 10;
-    //         setMinTranslateY(newMinTranslateY);
-    //         setMaxTranslateY(newMaxTranslateY);
-    //     };
-
-    //     updateTranslationValues();
-    // }, [isLargeScreen]);
-
 
   const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
 
@@ -85,7 +61,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[2100px] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div

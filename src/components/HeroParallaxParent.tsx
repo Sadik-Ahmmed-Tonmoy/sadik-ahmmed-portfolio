@@ -3,7 +3,7 @@ import React from "react";
 import { HeroParallax } from "@/components/ui/hero-parallax";
 
 export function HeroParallaxParent() {
-  return <div className="bg-black"><HeroParallax products={products} /></div>;
+  return <div className=" bg-gradient-to-b from-black from-70%  to-[#586173] to-100%"><HeroParallax products={products} /></div>;
 }
 export const products = [
   {
