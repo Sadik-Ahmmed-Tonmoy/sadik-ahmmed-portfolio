@@ -12,6 +12,8 @@ import { LampDemo } from '@/components/LampDemo';
 import { SVGMaskEffectDemo } from '@/components/SVGMaskEffectDemo';
 import { SparklesPreview } from '@/components/SparklesPreview';
 import { StickyScrollRevealDemo } from '@/components/StickyScrollRevealDemo';
+import { TabsDemo } from '@/components/TabsDemo';
+import { TextRevealCardPreview } from '@/components/TextRevealCardPreview';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 
 const HomePage = () => {
@@ -32,6 +34,8 @@ const HomePage = () => {
       <SparklesPreview/>
       <StickyScrollRevealDemo/>
       <SVGMaskEffectDemo/>
+      <TabsDemo/>
+      <TextRevealCardPreview/>
 
       {/* <GoogleGeminiEffectMain/> */}
       <HeroHighlightDemo/>
