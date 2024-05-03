@@ -21,13 +21,13 @@ const HomePage = () => {
       <BackgroundBeamsMain/>
       <BackgroundBoxesMain/>
       <BackgroundGradientMain/>
-      {/* <BentoGridThirdMain/> */}
+      <BentoGridThirdMain/>
       <CanvasRevealEffectMain/>
       <CardHoverEffectMain/>
       <EvervaultCardMain/>
-      <GoogleGeminiEffectMain/>
       <BackgroundGradientAnimationMain/>
       <DotBackgroundMain/>
+      <GoogleGeminiEffectMain/>
   
     </div>
   );
