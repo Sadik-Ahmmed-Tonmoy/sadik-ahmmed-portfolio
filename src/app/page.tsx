@@ -3,31 +3,34 @@ import { BackgroundBeamsMain } from '@/components/BackgroundBeamsMain';
 import { BackgroundBoxesMain } from '@/components/BackgroundBoxesMain';
 import { BackgroundGradientAnimationMain } from '@/components/BackgroundGradientAnimationMain';
 import { BackgroundGradientMain } from '@/components/BackgroundGradientMain';
-import { BentoGridThirdMain } from '@/components/BentoGridThirdMain';
-import { CanvasRevealEffectMain } from '@/components/CanvasRevealEffectMain';
 import { CardHoverEffectMain } from '@/components/CardHoverEffectMain';
 import { DotBackgroundMain } from '@/components/DotBackgroundMain';
 import { EvervaultCardMain } from '@/components/EvervaultCardMain';
-import { GoogleGeminiEffectMain } from '@/components/GoogleGeminiEffectMain';
+import { HeroHighlightDemo } from '@/components/HeroHighlightDemo';
 import { HeroParallaxParent } from '@/components/HeroParallaxParent';
+import { LampDemo } from '@/components/LampDemo';
+import { SparklesPreview } from '@/components/SparklesPreview';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 
 const HomePage = () => {
   return (
     <div className='bg-black'>
       <BackgroundBeams />
-      <HeroParallaxParent/>
       <AuroraBackgroundMain/>
       <BackgroundBeamsMain/>
       <BackgroundBoxesMain/>
+      <HeroParallaxParent/>
       <BackgroundGradientMain/>
-      <BentoGridThirdMain/>
-      <CanvasRevealEffectMain/>
+      {/* <BentoGridThirdMain/> */}
+      {/* <CanvasRevealEffectMain/> */}
       <CardHoverEffectMain/>
       <EvervaultCardMain/>
       <BackgroundGradientAnimationMain/>
-      <DotBackgroundMain/>
-      <GoogleGeminiEffectMain/>
+      <LampDemo/>
+      <SparklesPreview/>
+
+      {/* <GoogleGeminiEffectMain/> */}
+      <HeroHighlightDemo/>
       <DotBackgroundMain/>
   
     </div>
