@@ -9,7 +9,9 @@ import { EvervaultCardMain } from '@/components/EvervaultCardMain';
 import { HeroHighlightDemo } from '@/components/HeroHighlightDemo';
 import { HeroParallaxParent } from '@/components/HeroParallaxParent';
 import { LampDemo } from '@/components/LampDemo';
+import { SVGMaskEffectDemo } from '@/components/SVGMaskEffectDemo';
 import { SparklesPreview } from '@/components/SparklesPreview';
+import { StickyScrollRevealDemo } from '@/components/StickyScrollRevealDemo';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 
 const HomePage = () => {
@@ -28,6 +30,8 @@ const HomePage = () => {
       <BackgroundGradientAnimationMain/>
       <LampDemo/>
       <SparklesPreview/>
+      <StickyScrollRevealDemo/>
+      <SVGMaskEffectDemo/>
 
       {/* <GoogleGeminiEffectMain/> */}
       <HeroHighlightDemo/>
