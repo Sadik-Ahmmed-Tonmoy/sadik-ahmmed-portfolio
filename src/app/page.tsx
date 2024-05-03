@@ -8,12 +8,15 @@ import { DotBackgroundMain } from '@/components/DotBackgroundMain';
 import { EvervaultCardMain } from '@/components/EvervaultCardMain';
 import { HeroHighlightDemo } from '@/components/HeroHighlightDemo';
 import { HeroParallaxParent } from '@/components/HeroParallaxParent';
+import { HeroScrollDemo } from '@/components/HeroScrollDemo';
+import { HoverBorderGradientDemo } from '@/components/HoverBorderGradientDemo';
 import { LampDemo } from '@/components/LampDemo';
 import { SVGMaskEffectDemo } from '@/components/SVGMaskEffectDemo';
 import { SparklesPreview } from '@/components/SparklesPreview';
 import { StickyScrollRevealDemo } from '@/components/StickyScrollRevealDemo';
 import { TabsDemo } from '@/components/TabsDemo';
 import { TextRevealCardPreview } from '@/components/TextRevealCardPreview';
+import { TracingBeamDemo } from '@/components/TracingBeamDemo';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 
 const HomePage = () => {
@@ -36,6 +39,9 @@ const HomePage = () => {
       <SVGMaskEffectDemo/>
       <TabsDemo/>
       <TextRevealCardPreview/>
+      <TracingBeamDemo/>
+      <HoverBorderGradientDemo/>
+      <HeroScrollDemo/>
 
       {/* <GoogleGeminiEffectMain/> */}
       <HeroHighlightDemo/>
