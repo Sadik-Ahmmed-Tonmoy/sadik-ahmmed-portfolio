@@ -3,6 +3,8 @@ import { BackgroundBeamsMain } from '@/components/BackgroundBeamsMain';
 import { BackgroundBoxesMain } from '@/components/BackgroundBoxesMain';
 import { BackgroundGradientAnimationMain } from '@/components/BackgroundGradientAnimationMain';
 import { BackgroundGradientMain } from '@/components/BackgroundGradientMain';
+import { BentoGridThirdMain } from '@/components/BentoGridThirdMain';
+import { CanvasRevealEffectMain } from '@/components/CanvasRevealEffectMain';
 import { CardHoverEffectMain } from '@/components/CardHoverEffectMain';
 import { DotBackgroundMain } from '@/components/DotBackgroundMain';
 import { EvervaultCardMain } from '@/components/EvervaultCardMain';
@@ -28,8 +30,8 @@ const HomePage = () => {
       <BackgroundBoxesMain/>
       <HeroParallaxParent/>
       <BackgroundGradientMain/>
-      {/* <BentoGridThirdMain/> */}
-      {/* <CanvasRevealEffectMain/> */}
+      <BentoGridThirdMain/>
+      <CanvasRevealEffectMain/>
       <CardHoverEffectMain/>
       <EvervaultCardMain/>
       <BackgroundGradientAnimationMain/>
