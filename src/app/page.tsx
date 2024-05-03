@@ -28,6 +28,7 @@ const HomePage = () => {
       <BackgroundGradientAnimationMain/>
       <DotBackgroundMain/>
       <GoogleGeminiEffectMain/>
+      <DotBackgroundMain/>
   
     </div>
   );
