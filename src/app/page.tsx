@@ -32,7 +32,7 @@ const HomePage = () => {
       <AuroraBackgroundMain/>
       <BackgroundBeams />
       <BackgroundBeamsMain/>
-      <BackgroundBoxesMain/>
+      {/* <BackgroundBoxesMain/>
       <HeroParallaxParent/>
       <BackgroundGradientMain/>
       <BentoGridThirdMain/>
@@ -48,7 +48,7 @@ const HomePage = () => {
       <TextRevealCardPreview/>
       <TracingBeamDemo/>
       <HoverBorderGradientDemo/>
-      <HeroScrollDemo/>
+      <HeroScrollDemo/> */}
 
       {/* <GoogleGeminiEffectMain/> */}
       {/* <HeroHighlightDemo/> */}
