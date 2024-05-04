@@ -32,26 +32,26 @@ const HomePage = () => {
       <AuroraBackgroundMain/>
       <BackgroundBeams />
       <BackgroundBeamsMain/>
-      {/* <BackgroundBoxesMain/>
+      <BackgroundBoxesMain/>
       <HeroParallaxParent/>
       <BackgroundGradientMain/>
-      <BentoGridThirdMain/>
-      <CanvasRevealEffectMain/>
+      {/* <BentoGridThirdMain/> */}
+      {/* <CanvasRevealEffectMain/> */}
       <CardHoverEffectMain/>
       <EvervaultCardMain/>
-      <BackgroundGradientAnimationMain/>
+      {/* <BackgroundGradientAnimationMain/> */}
       <LampDemo/>
       <SparklesPreview/>
       <StickyScrollRevealDemo/>
-      <SVGMaskEffectDemo/>
+      {/* <SVGMaskEffectDemo/> */}
       <TabsDemo/>
       <TextRevealCardPreview/>
       <TracingBeamDemo/>
       <HoverBorderGradientDemo/>
-      <HeroScrollDemo/> */}
+      <HeroScrollDemo/>
 
       {/* <GoogleGeminiEffectMain/> */}
-      {/* <HeroHighlightDemo/> */}
+      <HeroHighlightDemo/>
       <DotBackgroundMain/>
   
     </div>
