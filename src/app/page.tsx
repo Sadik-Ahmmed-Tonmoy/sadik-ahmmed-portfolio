@@ -20,12 +20,17 @@ import { TabsDemo } from '@/components/TabsDemo';
 import { TextRevealCardPreview } from '@/components/TextRevealCardPreview';
 import { TracingBeamDemo } from '@/components/TracingBeamDemo';
 import { BackgroundBeams } from '@/components/ui/background-beams';
+import { HeroHighlight } from '@/components/ui/hero-highlight';
 
 const HomePage = () => {
   return (
-    <div className='bg-black'>
-      <BackgroundBeams />
+    <div className='bg-black relative'>
+       {/* <HeroHighlight>
+       <BentoGridThirdMain/>
+       </HeroHighlight> */}
+          {/* <div className="absolute inset-0 bg-dot-thick-neutral-800 pointer-events-none [mask-image:radial-gradient(ellipse_at_center,black,transparent_90%)]" /> */}
       <AuroraBackgroundMain/>
+      <BackgroundBeams />
       <BackgroundBeamsMain/>
       <BackgroundBoxesMain/>
       <HeroParallaxParent/>
@@ -46,7 +51,7 @@ const HomePage = () => {
       <HeroScrollDemo/>
 
       {/* <GoogleGeminiEffectMain/> */}
-      <HeroHighlightDemo/>
+      {/* <HeroHighlightDemo/> */}
       <DotBackgroundMain/>
   
     </div>
