@@ -21,10 +21,12 @@ import { TextRevealCardPreview } from '@/components/TextRevealCardPreview';
 import { TracingBeamDemo } from '@/components/TracingBeamDemo';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 import { HeroHighlight } from '@/components/ui/hero-highlight';
+import SplineElement from './Spline/SplineElement';
 
 const HomePage = () => {
   return (
     <div className='bg-black relative'>
+      <SplineElement/>
        {/* <HeroHighlight>
        <BentoGridThirdMain/>
        </HeroHighlight> */}
@@ -32,17 +34,17 @@ const HomePage = () => {
       <AuroraBackgroundMain/>
       <BackgroundBeams />
       <BackgroundBeamsMain/>
-      <BackgroundBoxesMain/>
+      {/* <BackgroundBoxesMain/> */}
       <HeroParallaxParent/>
-      <BackgroundGradientMain/>
+      {/* <BackgroundGradientMain/> */}
       {/* <BentoGridThirdMain/> */}
       {/* <CanvasRevealEffectMain/> */}
       <CardHoverEffectMain/>
-      <EvervaultCardMain/>
+      {/* <EvervaultCardMain/> */}
       {/* <BackgroundGradientAnimationMain/> */}
       <LampDemo/>
       <SparklesPreview/>
-      <StickyScrollRevealDemo/>
+      {/* <StickyScrollRevealDemo/> */}
       {/* <SVGMaskEffectDemo/> */}
       <TabsDemo/>
       <TextRevealCardPreview/>
