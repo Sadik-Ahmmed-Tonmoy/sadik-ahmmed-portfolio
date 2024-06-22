@@ -12,7 +12,7 @@ const SplineElement = () => {
         </div>
         <div className="text-white text-5xl absolute  h-full w-full inset-0  flex items-center justify-center">
           <p>Sadik</p>
-        </div>         
+        </div> 
       </div> 
       <Spline scene="https://prod.spline.design/x-kp7MqLlcuZsFdk/scene.splinecode" />
       <Spline scene="https://prod.spline.design/KDei-Mdt69VleMG8/scene.splinecode" />
