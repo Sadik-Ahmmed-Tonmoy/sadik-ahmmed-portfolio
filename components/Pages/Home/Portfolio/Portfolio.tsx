@@ -334,7 +334,7 @@ const Portfolio = () => {
                       >
                         <FaExternalLinkAlt className="text-lg" />
                       </motion.a>
-                      <motion.a
+                      {/* <motion.a
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -344,7 +344,7 @@ const Portfolio = () => {
                         aria-label={`View ${project.name} source code`}
                       >
                         <FaGithub className="text-lg" />
-                      </motion.a>
+                      </motion.a> */}
                     </div>
                   </motion.div>
                 </div>
