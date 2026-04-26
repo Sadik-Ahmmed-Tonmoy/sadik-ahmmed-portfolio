@@ -188,7 +188,7 @@ const Resume: React.FC = () => {
       id: 3,
       type: "work",
       date: "Aug 2023 - Sep 2024",
-      title: "React Developer",
+      title: "Frontend Developer",
       subtitle: "Wizard Software & Technology Bangladesh Ltd",
       description: "Developed dynamic and responsive web applications while collaborating with senior developers",
       details: ["Front-end & Back-end Development", "Team Collaboration", "Responsive Web Applications"],
