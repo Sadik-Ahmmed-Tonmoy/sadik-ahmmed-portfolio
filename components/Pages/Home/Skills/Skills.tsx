@@ -76,7 +76,7 @@ const Skills = () => {
   ];
 
   return (
-    <div id="skills" className="min-h-screen relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8">
+    <div id="skills" className="hidden lg:block min-h-screen relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Floating Code Symbols */}
