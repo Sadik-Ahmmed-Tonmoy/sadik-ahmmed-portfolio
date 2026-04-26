@@ -232,7 +232,7 @@ const Resume: React.FC = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br relative overflow-hidden">
+    <div id="resume" className="min-h-screen bg-gradient-to-br relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Floating Code Symbols */}
