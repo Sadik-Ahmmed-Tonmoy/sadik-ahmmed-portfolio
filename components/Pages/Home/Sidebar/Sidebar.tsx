@@ -55,7 +55,7 @@ const Sidebar = () => {
   const navItems: NavItem[] = [
     { id: "home", icon: <AiOutlineHome />, tooltip: "Home" },
     { id: "about", icon: <BsFillPersonLinesFill />, tooltip: "About" },
-    { id: "resume", icon: <MdOutlineBusinessCenter />, tooltip: "Resume" },
+    // { id: "resume", icon: <MdOutlineBusinessCenter />, tooltip: "Resume" },
     { id: "services", icon: <VscVmConnect />, tooltip: "Services" },
     { id: "skills", icon: <BsCodeSlash />, tooltip: "Skills" },
     { id: "portfolio", icon: <AiOutlineDatabase />, tooltip: "Portfolio" },

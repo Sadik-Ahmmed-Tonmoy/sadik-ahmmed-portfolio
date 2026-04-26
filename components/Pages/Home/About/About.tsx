@@ -78,8 +78,8 @@ const About = () => {
   ];
 
   const stats: Stat[] = [
-    { number: "9+", label: "Months Exp", icon: <MdDeveloperMode /> },
-    { number: "20+", label: "Projects", icon: <FaLaptopCode /> },
+    { number: "4+", label: "years Exp", icon: <MdDeveloperMode /> },
+    { number: "150+", label: "Projects", icon: <FaLaptopCode /> },
     { number: "100%", label: "Problem Solver", icon: <MdLightbulb /> },
     { number: "∞", label: "Learning", icon: <MdRocketLaunch /> }
   ];
