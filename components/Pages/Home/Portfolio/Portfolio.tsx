@@ -10,6 +10,7 @@ import Image, { StaticImageData } from "next/image";
 import kmrImage from "@/assets/Image/knockMyRide.png";
 import perfectoImage from "@/assets/Image/perfecto.png";
 import ourLoveJourney from "@/assets/Image/Our Love Journey.png";
+import primelyGaming from "@/assets/Image/game logo.jpeg";
 import { Link } from "react-scroll";
 
 interface Tech {
@@ -94,7 +95,7 @@ const Portfolio = () => {
       name: "Primely Gaming",
       description:
         "A gaming platform with authentication, game management, leaderboards, and social features. Includes real-time interaction and a dynamic user experience.",
-      image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop&q=80",
+      image: primelyGaming,
       link: "https://primely-gaming-client.vercel.app/",
       github: "#",
       tech: [
@@ -306,35 +307,41 @@ const Portfolio = () => {
                 </div>
 
                 {/* Project Image */}
-                <div className="relative overflow-hidden h-64 sm:h-72 lg:h-80">
-                  {typeof project.image === "string" ? (
-                    <motion.img src={project.image} alt={project.name} className="w-full h-full object-cover" whileHover={imageVariants} />
-                  ) : (
-                    <motion.div whileHover={imageVariants} className="relative w-full h-full">
-                      <Image src={project.image} alt={project.name} fill className="object-cover" />
-                    </motion.div>
-                  )}
+                <motion.a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View ${project.name} live`}
+                >
+                  <div className="relative overflow-hidden h-64 sm:h-72 lg:h-80">
+                    {typeof project.image === "string" ? (
+                      <motion.img src={project.image} alt={project.name} className="w-full h-full object-cover" whileHover={imageVariants} />
+                    ) : (
+                      <motion.div whileHover={imageVariants} className="relative w-full h-full">
+                        <Image src={project.image} alt={project.name} fill className="object-cover" />
+                      </motion.div>
+                    )}
 
-                  {/* Overlay */}
-                  <motion.div
-                    initial="hidden"
-                    whileHover="hover"
-                    variants={overlayVariants}
-                    className="absolute inset-0 bg-gradient-to-t from-slate-900/95 via-slate-900/50 to-transparent flex items-center justify-center"
-                  >
-                    <div className="flex gap-4">
-                      <motion.a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={buttonHoverVariants}
-                        whileTap={buttonTapVariants}
-                        className="bg-emerald-500 hover:bg-emerald-600 text-white p-4 rounded-full shadow-xl transition-colors duration-300"
-                        aria-label={`View ${project.name} live`}
-                      >
-                        <FaExternalLinkAlt className="text-lg" />
-                      </motion.a>
-                      {/* <motion.a
+                    {/* Overlay */}
+                    <motion.div
+                      initial="hidden"
+                      whileHover="hover"
+                      variants={overlayVariants}
+                      className="absolute inset-0 bg-gradient-to-t from-slate-900/95 via-slate-900/10 to-transparent flex items-center justify-center"
+                    >
+                      <div className="flex gap-4">
+                        <motion.a
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          whileHover={buttonHoverVariants}
+                          whileTap={buttonTapVariants}
+                          className="bg-emerald-500 hover:bg-emerald-600 text-white p-4 rounded-full shadow-xl transition-colors duration-300"
+                          aria-label={`View ${project.name} live`}
+                        >
+                          <FaExternalLinkAlt className="text-lg" />
+                        </motion.a>
+                        {/* <motion.a
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -345,10 +352,10 @@ const Portfolio = () => {
                       >
                         <FaGithub className="text-lg" />
                       </motion.a> */}
-                    </div>
-                  </motion.div>
-                </div>
-
+                      </div>
+                    </motion.div>
+                  </div>
+                </motion.a>
                 {/* Project Content */}
                 <div className="p-6 sm:p-8">
                   <div className="flex items-start justify-between mb-4">
